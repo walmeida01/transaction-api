@@ -1,0 +1,22 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.log
+
+## Docker
+docker-compose.override.yml
+
+## Segredos
+*.env
+appsettings.Production.json
+
+## IDEs
+.idea/
+.vscode/
+
+## Cobertura de testes
+coverage/
+*.xml
